@@ -1,11 +1,12 @@
 package com.blibli.oss.swagger2.example;
 
+import com.blibli.oss.swagger2.extention.mandatoryparam.MandatoryParamAtQuery;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
 @RestController
-@MandatoryParamAtHeader
+@MandatoryParamAtQuery
 public class ExampleController {
 
   @GetMapping("/")

@@ -16,6 +16,8 @@ Add dependency
 
 And this plugin will automatically scan all your controller
 
+You can access your swagger ui on `http://localhost:8080/swagger-ui.html`
+
 ## Global Parameter
 
 Sometimes you want to add global parameter (configure once, and use everywhere). You can use this by register your custom `io.swagger.v3.oas.models.parameters.Parameter` bean. Example :
